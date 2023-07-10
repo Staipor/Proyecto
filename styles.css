@@ -5,14 +5,25 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: #a68069;
   color: white;
   text-align: center;
   padding: 10px;
 }
 
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 110px; /* Tamaño personalizado para la imagen */
+  margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
 nav {
-  background-color: #888;
+  background-color: #d8af97;
   text-align: center;
 }
 
@@ -45,7 +56,7 @@ main {
 section {
   margin-bottom: 20px;
   padding: 20px;
-  background-color: #ddd;
+  background-color: #ecd6c0;
 }
 
 section h2 {
@@ -54,7 +65,7 @@ section h2 {
 
 footer {
   background-color: #333;
-  color: white;
+  color: #ffffeb;
   text-align: center;
   padding: 10px;
 }
